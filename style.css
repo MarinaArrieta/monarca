@@ -1,6 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/hai-eisya');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-
+@font-face {
+    font-family: 'Bracesso';
+    src: url(font/Bracesso.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -26,9 +29,9 @@ nav{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    background: #260101db;
+    background: #795548;
     padding: 10px 0px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #f5deb3b0;
 }
 
 h1{
@@ -39,13 +42,13 @@ h1{
     margin: auto;
     width: 50%;
     text-align: center;
-    font-family: 'Hai Eisya', sans-serif;
-    -webkit-text-stroke: 1px #744b0d;
-    color: #260101;
+    font-family: 'Bracesso';
+    -webkit-text-stroke: 0.1px black;
+    color: #795548;
     text-shadow: -7px 4px 12px #260101f2;
-    font-size: 4em;
-    background: linear-gradient(to bottom right, #f2a20c8f, #bf5b04a3);
-    letter-spacing: 33px;
+    font-size: 5em;
+    background: linear-gradient(to bottom right, #8c3503c7, #f2a20c8f, #bf5b04a3);
+    letter-spacing: 10px;
     padding: 70px;
     box-shadow: 0px 0px 13px wheat;
 }
@@ -57,11 +60,13 @@ img{
 }
 
 a{
+    letter-spacing: 3px;
+    font-weight: bold;
     font-family: 'Comfortaa', sans-serif;
-    color: wheat;
-    font-size: 0.8em;
-    text-shadow: 1px 0px 11px #F2A208;
+    color: black;
+    font-size: 0.9em;
     text-decoration: none;
+    text-shadow: 0px 2px 1px #f5deb342;
 }
 
 .ciclo{
