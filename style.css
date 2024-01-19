@@ -140,3 +140,20 @@ p{
     padding: 15px;
     border-radius: 0px 0px 17px 17px;
 }
+
+footer{
+    height: 30vh;
+    display: flex;
+    background: #FFC107;
+}
+
+footer ul:first-child{
+    flex-direction: column;
+    text-align: center;
+    border-right: 1px solid #dba912;
+}
+
+footer ul:last-child{
+    flex-direction: column;
+    font-size: 1.3em;
+}
