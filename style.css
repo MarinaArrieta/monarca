@@ -89,6 +89,7 @@ a{
 }
 
 h2{
+    width: 100%;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     font-size: 7vw;
@@ -112,6 +113,21 @@ article{
     backdrop-filter: blur( 15px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+div{
+    display: flex;
+}
+
+figure{
+    position: absolute;
+    top: -44px;
+    left: 30px;
+}
+
+img{
+    width: 20%;
+    filter: drop-shadow(-2px 2px 12px white);
 }
 
 p{
