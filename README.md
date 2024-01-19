@@ -1,4 +1,3 @@
-🦋 Mariposas Monarcas
 En esta página podes encontrar información sobre la reserva biósfera de la mariposa monarca, la migración de la mariposa y el santuario El Rosario que se encuentra dentro de la reserva.
 
 Herramientas utilizadas para la creación de esta página:
