@@ -93,7 +93,10 @@ h2{
     text-align: center;
     font-size: 7vw;
     padding: 15px 0px;
-    text-shadow: -1px 1px 3px wheat;
+    background-image: linear-gradient(to right, #ffc3a09e 0%, #ff57228a 100%), url(img/amarillo1.jpg);
+    color: #FFC107;
+    text-shadow: -5px 5px 0px black;
+    -webkit-text-stroke: 4px #221502;
 }
 
 .monarca1{
@@ -118,6 +121,9 @@ p{
     text-align: justify;
     font-size: 1.3vw;
     font-weight: bold;
+    background-color: black;
+    padding: 15px;
+    border-radius: 40px;
 }
 
 .migracion{
