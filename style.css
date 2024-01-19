@@ -15,18 +15,24 @@ header{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(./img/amarillo1.jpg);
+    background-image: url(./img/monarca-flores.jpg);
     background-repeat: repeat;
 }
 
 nav{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     height: 5%;
     background: #FFC107;
     padding: 10px 0px;
     border-bottom: 1px solid #f5deb3b0;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
 }
 
 a{
@@ -64,7 +70,7 @@ section{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(img/amarillo1.jpg);
+    background-image: url(img/monarca-flores.jpg);
     background-repeat: repeat;
 }
 
@@ -88,7 +94,7 @@ h2{
     text-align: center;
     font-size: 7vw;
     padding: 15px 0px;
-    background-image: linear-gradient(to right, #ffc3a09e 0%, #ff57228a 100%), url(img/amarillo1.jpg);
+    background-image: linear-gradient(to right, #ffc3a09e 0%, #ff57228a 100%), url(img/monarca-flores.jpg);
     color: #FFC107;
     text-shadow: -5px 5px 0px black;
     -webkit-text-stroke: 4px #221502;
