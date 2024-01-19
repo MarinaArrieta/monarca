@@ -4,7 +4,7 @@ Herramientas utilizadas para la creación de esta página:
 
 🦋 Código: HTML, CSS.
 
-🦋 Tipografía: Googlw Font, Dafont.
+🦋 Tipografía: Google Font, Dafont.
 
 🦋 Colores: WebGradients, hype4-Glass.
 
