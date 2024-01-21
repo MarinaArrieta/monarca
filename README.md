@@ -10,4 +10,4 @@ Herramientas utilizadas para la creación de esta página:
 
 🦋 Imágenes: Leonardo AI, GIMP, Paint 3D, Remove bg.
 
-[![Captura-de-pantalla-117.png](https://i.postimg.cc/cHfbS0zg/Captura-de-pantalla-117.png)](https://postimg.cc/njckKbpp)
+[![vista.png](https://i.postimg.cc/D0dtdg7p/vista.png)](https://postimg.cc/WqzWs0F0)
