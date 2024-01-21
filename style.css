@@ -130,31 +130,66 @@ figure{
     position: absolute;
 }
 
-div figure:first-child{
+/* Primer Section Figure */
+main section:first-child figure:first-child{
     top: -40px;
     left: -49px;
+    background-image: url(img/huevos1.png);
+    filter: drop-shadow(-2px 2px 12px var(--blanco));
 }
 
-div figure img:first-child{
-    width: 137px;
-}
-
-div figure:last-child{
-    width: 120px;
+main section:first-child figure:last-child{
     right: -29px;
     bottom: -34px;
     display: flex;
     justify-content: end;
-    width: 600px;
-}
-
-div figure img:last-child{
-    width: 120px;
-}
-
-img{
+    background-image: url(img/huevos2.png);
+    background-repeat: no-repeat;
     filter: drop-shadow(-2px 2px 12px var(--blanco));
 }
+
+/* Segundo Section Figure */
+main section:nth-child(2n) figure:first-child{
+    top: -40px;
+    left: -49px;
+    background-image: url(img/pupa.png);
+    filter: drop-shadow(-2px 2px 12px var(--blanco));
+}
+
+main section:nth-child(2n) figure:last-child{
+    right: -29px;
+    bottom: -34px;
+    display: flex;
+    justify-content: end;
+    background-image: url(img/pupa2.png);
+    background-repeat: no-repeat;
+    filter: drop-shadow(-2px 2px 12px var(--blanco));
+}
+
+/* Tercer Section Figure */
+main section:last-child figure:first-child{
+    top: -40px;
+    left: -49px;
+    background-image: url(img/oruga.png);
+    filter: drop-shadow(-2px 2px 12px var(--blanco));
+    background-repeat: no-repeat;
+}
+
+main section:last-child figure:last-child{
+    right: -29px;
+    bottom: -34px;
+    display: flex;
+    justify-content: end;
+    background-image: url(img/oruga2.png);
+    background-repeat: no-repeat;
+    filter: drop-shadow(-2px 2px 12px var(--blanco));
+}
+
+img:hover{
+    opacity: 0;
+    transition: .2s ease all;
+}
+
 
 p{
     font-family: 'Roboto Mono', monospace;
