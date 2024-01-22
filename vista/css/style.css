@@ -34,9 +34,9 @@ header{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(./img/monarca-flores.jpg);
+    background-image: url(../img/monarca-flores.jpg);
     background-repeat: repeat;
-    cursor: url(img/mariposa.png), auto;
+    cursor: url(../img/mariposa.png), auto;
 }
 
 header nav{
@@ -138,9 +138,9 @@ section{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(img/monarca-flores.jpg);
+    background-image: url(../img/monarca-flores.jpg);
     background-repeat: repeat;
-    cursor: url(img/mariposa.png), auto;
+    cursor: url(../img/mariposa.png), auto;
 }
 
 article{
@@ -177,7 +177,7 @@ figure{
 #reserva figure:first-of-type{
     top: -40px;
     left: -49px;
-    background-image: url(img/huevos1.png);
+    background-image: url(../img/huevos1.png);
     filter: drop-shadow(-2px 2px 12px var(--blanco));
 }
 
@@ -186,7 +186,7 @@ figure{
     bottom: -34px;
     display: flex;
     justify-content: end;
-    background-image: url(img/huevos2.png);
+    background-image: url(../img/huevos2.png);
     background-repeat: no-repeat;
     filter: drop-shadow(-2px 2px 12px var(--blanco));
 }
@@ -195,7 +195,7 @@ figure{
 #migracion figure:first-of-type{
     top: -40px;
     left: -49px;
-    background-image: url(img/pupa.png);
+    background-image: url(../img/pupa.png);
     filter: drop-shadow(-2px 2px 12px var(--blanco));
 }
 
@@ -204,7 +204,7 @@ figure{
     bottom: -34px;
     display: flex;
     justify-content: end;
-    background-image: url(img/pupa2.png);
+    background-image: url(../img/pupa2.png);
     background-repeat: no-repeat;
     filter: drop-shadow(-2px 2px 12px var(--blanco));
 } 
@@ -213,7 +213,7 @@ figure{
 #santuario figure:first-child{
     top: -40px;
     left: -49px;
-    background-image: url(img/oruga.png);
+    background-image: url(../img/oruga.png);
     filter: drop-shadow(-2px 2px 12px var(--blanco));
     background-repeat: no-repeat;
 }
@@ -223,7 +223,7 @@ figure{
     bottom: -34px;
     display: flex;
     justify-content: end;
-    background-image: url(img/oruga2.png);
+    background-image: url(../img/oruga2.png);
     background-repeat: no-repeat;
     filter: drop-shadow(-2px 2px 12px var(--blanco));
 }
