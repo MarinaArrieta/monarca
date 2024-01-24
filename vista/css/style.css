@@ -34,7 +34,7 @@ body{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-image: linear-gradient(to top, #064c462e 0%, #000000a6 100%) ,url(../img/monarca-flores3.jpeg);
+    background-image: linear-gradient(to top, #064c462e 0%, #000000a6 100%) ,url(../img/monarca-flores4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -108,6 +108,7 @@ main nav{
     top: 0;
     height: 100vh;
     width: 66px;
+    cursor: pointer;
 }
 
 main nav p{
@@ -142,6 +143,10 @@ main nav ul li a{
     margin-top: 10px;
 }
 
+main nav ul li a:hover{
+    border-bottom: 4px solid var(--crema);
+}
+
 section{
     display: flex;
     flex-direction: column;
@@ -172,6 +177,7 @@ h2{
     font-size: 7vw;
     padding: 15px 0px;
     background-image: linear-gradient(to right, var(--naranja-claro) 0%, var(--naranja-oscuro) 100%), url(../img/monarca-flores.jpg);
+    background-position: center;
     color: var(--amarillo);
     text-shadow: -5px 5px 0px var(--negro);
     -webkit-text-stroke: 4px var(--marron-oscuro-webkit);
